@@ -5,6 +5,6 @@
 // You can also execute the entire file by running the command:
 //     SFDX: Execute Anonymous Apex with Editor Contents
 
-string tempvar = 'Enter_your_name_here';
-System.debug('Hello World!');
-System.debug('My name is ' + tempvar);
+Integer randomNumber = Integer.valueOf(Math.random() * (100 - 50 + 1) + 50);
+// Return the random integer
+System.debug(randomNumber); // Replace null with the variable you used to store the result
